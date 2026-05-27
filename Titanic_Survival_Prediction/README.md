@@ -83,3 +83,23 @@ Random Forest performed better because it handled complex relationships between 
 
 ```bash
 git clone <repository-link>
+
+### 2. Create virtual environment
+
+python -m venv venv
+
+### 3. Activate virtual environment
+
+venv\Scripts\activate
+
+### 4. Install dependencies
+
+pip install -r requirements.txt
+
+### 5. Run the Streamlit app
+
+streamlit run app.py
+
+## Author
+
+Riddhi Shedame
