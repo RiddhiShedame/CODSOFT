@@ -13,7 +13,7 @@ from sklearn.metrics import classification_report
 from sklearn.ensemble import RandomForestClassifier
 
 # Load dataset
-df = pd.read_csv("D:\\PROJECTS\\Data_Science\\Titanic_Survival_Prediction\\data\\train.csv")
+df = pd.read_csv("D:\\PROJECTS\\Data_Science\\CODSOFT\\Titanic_Survival_Prediction\\data\\train.csv")
 
 # Display first 5 rows
 print(df.head())
