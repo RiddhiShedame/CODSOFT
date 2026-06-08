@@ -6,6 +6,11 @@ with open("models/titanic_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("Titanic Survival Predictor")
+st.set_page_config(
+    page_title="Titanic Survival Predictor",
+    page_icon="🚢",
+    layout="centered"
+)
 st.sidebar.header("Passenger Information")
 st.markdown("""
 This Machine Learning app predicts whether a passenger would survive the Titanic disaster using a Random Forest Classifier.
