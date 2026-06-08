@@ -7,7 +7,11 @@ with open("models/iris_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("🌸 Iris Flower Classification App")
-
+st.set_page_config(
+    page_title="Iris Flower Classifier",
+    page_icon="🌸",
+    layout="centered"
+)
 st.markdown("""
 This Machine Learning app predicts the species of an Iris flower based on flower measurements.
 """)
